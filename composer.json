@@ -1,6 +1,6 @@
 {
     "name":"fsavina/laravel-multi-memcached",
-    "description":"Extract multiple memcached server from .env file",
+    "description":"Extract multiple memcached server configuration from .env file",
     "keywords":[
         "framework",
         "laravel",
