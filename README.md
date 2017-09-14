@@ -22,13 +22,17 @@ In your `config/cache.php` file, change to Memcached server configuration callin
 ## Configuration
 In your `.env` file add the following variables:
 ```env
+
 #comma-separated list of Memcached servers
 MEMCACHED_HOST=my.first.memcached.server.com@100,my.second.memcached.server.com:11222@90
 
 #optional - default Memcached port
 MEMCACHED_PORT=11211
+
 ```
 
 For every provided server you can specify:
-*   the *port*: use the standard format `:11211`, following the host name
-*   the *weight*: use the format `@90` following the host name and the port (if present)
+*   the **port**: use the standard format `:11211`, following the host name;
+*   the **weight**: use the format `@90` following the host name and the port (if present).
+
+Both **port** and **weight** are optional. You can use `MEMCACHED_PORT` for the default port, which will be used for all the servers. The default weight, if not specified, is 100.
