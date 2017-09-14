@@ -1,0 +1,34 @@
+{
+    "name":"fsavina/laravel-multi-memcached",
+    "description":"Extract multiple memcached server from .env file",
+    "keywords":[
+        "framework",
+        "laravel",
+        "memcached",
+        "cache"
+    ],
+    "homepage":"https://github.com/fsavina/laravel-multi-memcached",
+    "support":{
+        "issues":"https://github.com/fsavina/laravel-multi-memcached/issues",
+        "source":"https://github.com/fsavina/laravel-multi-memcached"
+    },
+    "minimum-stability":"stable",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Fabio Savina",
+            "email":"fabio.savina@gmail.com"
+        }
+    ],
+    "require":{
+        "laravel/framework":"5.*"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"~5.4"
+    },
+    "autoload":{
+        "files":[
+            "src/LaravelMultiMemcached/helpers.php"
+        ]
+    }
+}
