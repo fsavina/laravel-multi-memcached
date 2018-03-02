@@ -1,5 +1,9 @@
 # laravel-multi-memcached
 
+[![Latest Stable Version](https://poser.pugx.org/fsavina/laravel-multi-memcached/v/stable)](https://packagist.org/packages/fsavina/laravel-multi-memcached)
+[![Total Downloads](https://poser.pugx.org/fsavina/laravel-multi-memcached/downloads)](https://packagist.org/packages/fsavina/laravel-multi-memcached)
+[![License](https://poser.pugx.org/fsavina/laravel-multi-memcached/license)](https://packagist.org/packages/fsavina/laravel-multi-memcached)
+
 Use multiple Memcached servers in your Laravel project directly from your .env file.
 
 ## Installation
