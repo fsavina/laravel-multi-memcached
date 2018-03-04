@@ -1,6 +1,6 @@
 <?php
 
-if ( ! function_exists ( 'memcached_servers' ) )
+if ( ! function_exists ( 'laravel_memcached_servers' ) )
 {
 	/**
 	 * Extract Memcached servers configuration from the given comma-separated string or from the default env variable
