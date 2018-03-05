@@ -5,7 +5,8 @@
         "framework",
         "laravel",
         "memcached",
-        "cache"
+        "cache",
+        "dotenv"
     ],
     "homepage":"https://github.com/fsavina/laravel-multi-memcached",
     "support":{
@@ -21,7 +22,7 @@
         }
     ],
     "require":{
-        "laravel/framework":"5.*"
+        "php": ">=5.0"
     },
     "require-dev":{
         "phpunit/phpunit":"~5.4"
